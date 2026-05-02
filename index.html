@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Craigslist Redesign Prototype</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app"></div>
+  
+  <!-- Demo info banner (top right) -->
+  <div id="demo-banner">
+    <div class="demo-banner-title">CSE/SER 463 Prototype</div>
+    <div class="demo-banner-subtitle">Click highlighted elements to navigate</div>
+    <div class="demo-banner-tasks">
+      <div><strong>Task 1:</strong> Buy a laptop &lt; $300</div>
+      <div><strong>Task 2:</strong> Post an item for sale</div>
+    </div>
+    <button onclick="document.getElementById('demo-banner').classList.toggle('minimized')" class="demo-banner-toggle">Hide</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
