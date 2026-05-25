@@ -1,7 +1,7 @@
 # Craigslist Redesign — Interactive Prototype
 
 **CSE/SER 463 Final Project — Spring 2026**
-**Student:** Jake
+**Student:** Jacob
 
 ---
 
